@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Subtle glow on input focus */
+textarea:focus{ box-shadow: 0 0 0 3px rgba(255,165,0,0.25); }
+
